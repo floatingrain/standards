@@ -1,6 +1,5 @@
 {
-	"name": "",
-	"image": "",
+	...,
 	"runArgs": [
 		"--userns=host"
 	],
