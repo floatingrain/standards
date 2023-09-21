@@ -1,0 +1,9 @@
+{
+	"name": "",
+	"image": "",
+	"runArgs": [
+		"--userns=host"
+	],
+	"containerUser": "root",
+	"remoteUser": "root"
+}

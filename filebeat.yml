@@ -1,0 +1,23 @@
+filebeat.inputs:
+  - type: filestream
+    id: tcop-backend
+    paths:
+      - 应用log文件路径
+output.elasticsearch:
+  hosts: ["10.145.216.136:6200", "10.145.216.137:6200", "10.145.216.138:6200"]
+  username: "de_tcop"
+  password: "oByjaf"
+  index: "de_tcop-%{+yyyy.MM.dd}"
+setup:
+  template:
+    enabled: false
+    # name: "de_tcop"
+    # pattern: "de_tcop*"
+  ilm.enabled: false
+logging:
+  level: error
+  to_files: true
+  files:
+   path: filebeat log文件路径
+   name: error
+   permissions: 0644
