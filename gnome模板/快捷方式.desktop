@@ -1,0 +1,15 @@
+[Desktop Entry]
+#名称
+Name=
+#注释
+Comment=
+#可执行程序
+Exec=
+#与正确的启动器图标相关联
+StartupWMClass=
+#是否终端执行
+Terminal=false
+#图标
+Icon=
+#应用类型
+Type=Application
