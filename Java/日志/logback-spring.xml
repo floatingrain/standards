@@ -10,7 +10,7 @@
     <!--输出info及以下级别到文件-->
     <appender name="file-under-info" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${log.path}/info-%d{yyyy-MM-dd}_%i.log</fileNamePattern>
+            <fileNamePattern>${log.path}/info_%d{yyyy-MM-dd}_%i.log</fileNamePattern>
             <!-- 单个文件最大-->
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>100MB</maxFileSize>
@@ -28,7 +28,7 @@
     <!--输出error到文件-->
     <appender name="file-error" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${log.path}/error-%d{yyyy-MM-dd}_%i.log</fileNamePattern>
+            <fileNamePattern>${log.path}/error_%d{yyyy-MM-dd}_%i.log</fileNamePattern>
             <!-- 单个文件最大-->
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>100MB</maxFileSize>
