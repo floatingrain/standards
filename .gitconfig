@@ -1,0 +1,7 @@
+[user]
+	email = floatingrain@yeah.net
+	name = 杨子聪
+[core]
+	fileMode = false
+[init]
+	defaultBranch = main
