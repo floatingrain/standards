@@ -1,0 +1,25 @@
+serve-path: "C:\\Users\\float\\共享"
+bind: 0.0.0.0
+port: 1024
+path-prefix:
+hidden:
+  - "*.log"
+auth:
+  - admin:b8DMpT$c1e9C@/:rw
+  - "@/:ro"
+allow-all: true
+allow-upload: true
+allow-delete: true
+allow-search: true
+allow-symlink: true
+allow-archive: true
+enable-cors: true
+render-index: true
+render-try-index: true
+render-spa: true
+assets:
+log-format: '$remote_addr "$request" $status $http_user_agent'
+log-file: ./dufs.log
+compress: medium
+tls-cert:
+tls-key:

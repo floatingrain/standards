@@ -1,0 +1,8 @@
+<service>
+	<id>dufs</id>
+	<name>dufs</name>
+	<description>dufs局域网文件共享服务</description>
+	<executable>C:\Users\float\Toolchains\bin\dufs.exe</executable>
+	<arguments>--config C:\Users\float\.config\dufs.yaml</arguments>
+	<log mode="none"></log>
+</service>
